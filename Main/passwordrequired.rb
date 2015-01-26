@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'selenium-webdriver'
 require "test/unit"
-require_relative 'environment'
+require_relative '../Setup/environment'
 
 CONST = Environment::URL
 
